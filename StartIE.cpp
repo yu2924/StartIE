@@ -3,7 +3,6 @@
 //  StartIE
 //
 //  created by yu2924 on 2022-08-07
-//  (c) 2022 yu2924
 //
 
 #include "targetver.h"
