@@ -14,11 +14,11 @@
 
 static CString GetErrorText(HRESULT r)
 {
-    TCHAR s[256];
+    WCHAR s[256] = {};
     if(!FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM, NULL, r, 0, s, _countof(s), NULL))
         if(!FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM, NULL, HRESULT_CODE(r), 0, s, _countof(s), NULL))
             StringCchPrintfW(s, _countof(s), L"0x%08X", r);
-    StrTrim(s, _T(" \r\n"));
+    StrTrimW(s, L" \r\n");
     return s;
 }
 
