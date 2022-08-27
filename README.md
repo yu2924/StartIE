@@ -1,23 +1,19 @@
 # StartIE
 
- ## what is this?
+ ## What is this?
 
-launches the classic Internet Explorer using the classic Win32 API on modern Windows.  
-may work on Windows XP or later (unconfirmed)
+This small piece of code launches traditional Internet Explorer using the traditional Win32 API, even on Windows 11 with IE disabled.  
 
-## requirements
+## Requirement
 * Windows SDK
 * ATL
 
-## usage
-just run the command or double click the icon.  
+## Usage
+Just run from the command or double click the icon.  
 no parameters required.
-```
-> StartIE
-```
 
-## created by
+## written by
 [yu2924](https://twitter.com/yu2924)
 
-## license
+## License
 CC0 1.0 Universal
